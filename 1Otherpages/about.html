@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>QUICKDREAMJOBS.COM/As</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <style type="text/css">
+    body{
+      background-image:linear-gradient(to left,black,purple,green);
+    }
+  </style>
+</head>
+<body>
+    <div>
+      <nav class="navbar fixed-top navbar-expand-lg bg-dark" style="width: 100vw;" id="mainNav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#tmMainNav"
+          aria-controls="tmMainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="tmMainNav">
+          <ul class="navbar-nav mx-auto tm-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-warning" style="font-family: algerian; font-size: 20px;" href="../index.html"><img src="../2Photos/logo.jpg" style="height: 40px;"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="upload resume.html">UPLOAD RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="company.html">COMPANY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="jobs.html">JOBS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="contact us.html">CONTACT US</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="btn btn-warning" data-toggle="modal" data-target="#signin"> SIGN IN</span>&nbsp;
+            <span class="btn btn-warning" data-toggle="modal" data-target="#signup"> SIGN UP </span>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
+<!-- SIGN IN  Modal -->
+  <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">USERNAME</label>
+                <input type="text" class="form-control" id="USERNAME">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputPassword1">PASSWORD</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="reset" class="btn btn-secondary">RESET</button>&nbsp;
+              <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+          </form>  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SIGN UP  Modal -->
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">USERNAME</label>
+                <input type="text" class="form-control" id="USERNAME">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputPassword1">PASSWORD</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputNumber">MOBILE</label>
+                <input type="number" class="form-control" id="MOBILE">
+                <small class="form-text text-muted">ENTER MOBILE NUMBER WITH COUNTRY CODE</small>
+              </div>
+              <div class="form-group ">
+                <label for="exampleInputEmail">EMAIL</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">WE WILL NEVER SHARE YOUR EMAIL WITH ANYONE</small>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">ADDRESS</label>
+                <input type="text" class="form-control" id="ADDRESS">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputNUMBER">PINCODE</label>
+                <input type="number" class="form-control" id="PINCODE">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">CITY</label>
+                <input type="text" class="form-control" id="CITY">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">STATE</label>
+                <input type="text" class="form-control" id="STATE">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">COUNTRY</label>
+                <input type="text" class="form-control" id="COUNTRY">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">NATIONALITY</label>
+                <input type="text" class="form-control" id="NATIONALITY">
+              </div>
+              <button type="reset" class="btn btn-secondary">RESET</button>&nbsp;
+              <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+          </form>  
+        </div>
+        <div class="modal-footer">
+          <button type="reset" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:100px;">
+    <div class="card" style="width: 20rem;float: left;margin:10px;">
+      <img src="../2Photos/VISION.jpg" class="card-img-top" style="height:330px;">
+      <div class="card-body">
+        <p class="card-text">VISION:TO PROVIDE 1MILLION+ JOBS</p>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem; float:left;margin:10px;">
+      <img src="../2Photos/MISSION.png"  class="card-img-top" style="height:305px;">
+      <div class="card-body">
+        <p class="card-text">MISSION:TO PROVIDE 75,000+ JOBS IN NEXT YEAR</p>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem; float:left;margin-top: 10px;">
+      <img src="../2Photos/JOB PROVIDING.jpg"  class="card-img-top" style="height:328px;">
+      <div class="card-body">
+        <p class="card-text">PROVIDING JOBS SINCE 2015</p>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem; float:left;margin-top: 10px;">
+      <h5 class="card-title text-center" >AD</h5>
+      <img src="../2Photos/TCS.PNG"  class="card-img-top" style="height:200px;">
+      <div class="card-body bg-danger">
+        <p  class="card-text">FILL THE FORM<br/>GET CALL FROM US<br/>GET INTERVIEW<br/>GET READY TO WORK WITH US<br/><a href="https://www.tcs.com/careers#type=overlay&page=/corporate-tcs/careers/overlays/tcs-worldwide-overlay">FOR MORE INFORMATION CLICK HERE</a></p>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem; float:left;margin:10px;">
+        <p class="card-text">WE HERE GIVE'S BEST PACKAGES TO OUR CANDIDATE FOR HARD-WORK THEY DO FOR THE COMPANY THEY WORK</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+  </body> 
+</html>

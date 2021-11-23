@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>QUICKDREAMJOBS.COM/J</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	 <style type="text/css">
+    body{
+      background-image: linear-gradient(to left,silver,yellow,white);
+    }
+  </style>
+</head>
+<body>
+    <div>
+      <nav class="navbar fixed-top navbar-expand-lg bg-dark" style="width: 100%;" id="mainNav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#tmMainNav"
+          aria-controls="tmMainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="tmMainNav">
+          <ul class="navbar-nav mx-auto tm-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-warning" style="font-family: algerian; font-size: 20px;" href="../index.html"><img src="../2Photos/logo.jpg " style="height: 40px;"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="upload resume.html">UPLOAD RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="company.html">COMPANY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="jobs.html">JOBS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="contact us.html">CONTACT US</a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="btn btn-warning" data-toggle="modal" data-target="#signin"> SIGN IN</span>&nbsp;
+            <span class="btn btn-warning" data-toggle="modal" data-target="#signup"> SIGN UP </span>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
+<!-- SIGN IN  Modal -->
+  <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">USERNAME</label>
+                <input type="text" class="form-control" id="USERNAME">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputPassword1">PASSWORD</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="reset" class="btn btn-secondary">RESET</button>&nbsp;
+              <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+          </form>  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SIGN UP  Modal -->
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">USERNAME</label>
+                <input type="text" class="form-control" id="USERNAME">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputPassword1">PASSWORD</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputNumber">MOBILE</label>
+                <input type="number" class="form-control" id="MOBILE">
+                <small class="form-text text-muted">ENTER MOBILE NUMBER WITH COUNTRY CODE</small>
+              </div>
+              <div class="form-group ">
+                <label for="exampleInputEmail">EMAIL</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">WE WILL NEVER SHARE YOUR EMAIL WITH ANYONE</small>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">ADDRESS</label>
+                <input type="text" class="form-control" id="ADDRESS">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputNUMBER">PINCODE</label>
+                <input type="number" class="form-control" id="PINCODE">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">CITY</label>
+                <input type="text" class="form-control" id="CITY">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">STATE</label>
+                <input type="text" class="form-control" id="STATE">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">COUNTRY</label>
+                <input type="text" class="form-control" id="COUNTRY">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleInputText">NATIONALITY</label>
+                <input type="text" class="form-control" id="NATIONALITY">
+              </div>
+              <button type="reset" class="btn btn-secondary">RESET</button>&nbsp;
+              <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+          </form>  
+        </div>
+        <div class="modal-footer">
+          <button type="reset" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   <div style="margin-top:80px;"> 
+	 <h5 class="text-danger">GET YOUR DREAM JOB FROM 50+ CATEGORIES WITH 2000+ VACANCIES</h5>
+   <table class="table">
+            <tbody>
+
+              <tr>
+                <td class="text-primary">ENGINEERING</td>
+                <td class="text-primary">BUSSINESS DEVELOPMENT</td>
+                <td class="text-primary">FINANCE</td>
+                <td class="text-primary">ADMINISTRATIVE ASSISTANT</td>
+              </tr>
+              <tr>
+                <td class="text-primary">RETAIL ASSOCIATE</td>
+                <td class="text-primary">CUSTOMER SERVICE</td>
+                <td class="text-primary">OPERATIONS</td>
+                <td class="text-primary">INFORMATION TECHNOLOGY</td>
+              </tr>
+              <tr>
+                <td class="text-primary">MARKETING</td>
+                <td class="text-primary">HUMAN RESOURCES</td>
+                <td class="text-primary">HEALTHCARE SERVICES</td>
+                <td class="text-primary">SALES</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">PROGRAM MANAGEMENT</td>
+                  <td class="text-primary">PROJECT MANAGEMENT</td>
+                  <td class="text-primary">ACCOUNTING</td>
+                  <td class="text-primary">ARTS AND DESIGN</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">COMUNITY AND SOCIETY</td>
+                  <td class="text-primary">CONSUKTING</td>
+                  <td class="text-primary">EDUCATION</td>
+                  <td class="text-primary">ENTREPRENEURSHIP</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">LEGAL SERVICES</td>
+                  <td class="text-primary">MEDIA AND COMMUNICATION</td>
+                  <td class="text-primary">MILITARY SERVICES</td>
+                  <td class="text-primary">PRODUCTION</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">QUALITY ASSURANCE</td>
+                  <td class="text-primary">REAL ESTATE</td>
+                  <td class="text-primary">RESEARCH</td>
+                  <td class="text-primary">FOOD MANAGEMENT</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">CYBER SECURITY</td>
+                  <td class="text-primary">CHARTED ACCOUNTING</td>
+                  <td class="text-primary">ARTIFICIAL INTELLIGENCE</td>
+                  <td class="text-primary">TECHNOLOGY MANUFACTURING</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">SKILLED BASE JOBS</td>
+                  <td class="text-primary">TELECOM SERVICES</td>
+                  <td class="text-primary">ARCHITECTURE</td>
+                  <td class="text-primary">AUTOMOBILE</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">WORK FROM HOME JOBS</td>
+                  <td class="text-primary">PART TIME JOBS</td>
+                  <td class="text-primary">SPORTS</td>
+                  <td class="text-primary">MUSIC</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">DANCE</td>
+                  <td class="text-primary">SUPERMARKET ADVERTISEMENT</td>
+                  <td class="text-primary">FACTORY MANEGEMENT</td>
+                  <td class="text-primary">ACTING</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">GYMANASIUM</td>
+                  <td class="text-primary">STOCK MARKET</td>
+                  <td class="text-primary">CIVIL SERVICES</td>
+                  <td class="text-primary">LAW AND DOCUMENTATION</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">ASTOLOGY</td>
+                  <td class="text-primary">ASTRONONY</td>
+                  <td class="text-primary">CRYPTO MINING</td>
+                  <td class="text-primary">HUMANITIES</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">SOCIAL SCIENCE</td>
+                  <td class="text-primary">NGO SERVICES</td>
+                  <td class="text-primary">FOREST MANAGEMENT</td>
+                  <td class="text-primary">WILDLIFE PHOTOGRAPHY</td>
+              </tr>
+              <tr>
+                  <td class="text-primary">VIROLOGY</td>
+                  <td class="text-primary">LAB TECHNICIAN</td>
+                  <td class="text-primary">MASTER OF ARCHEOLOGY</td>
+                  <td class="text-primary">BACHELOR DEGREES JOBS</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+  <script type="text/javascript" src="../js/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+</body>
+</html>
